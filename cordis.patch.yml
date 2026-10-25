@@ -1,0 +1,10 @@
+- insert:
+    - id: mcpbids-mcp
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: mcpbids
+        transport: streamable-http
+        url: https://mcpbids.com/mcp
+        headers:
+          Authorization: !!js '"Bearer " + process.env.MCPBIDS_API_KEY'
+        failOnStartupError: true

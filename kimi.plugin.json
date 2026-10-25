@@ -1,0 +1,28 @@
+{
+  "name": "mcpbids",
+  "version": "1.0.0",
+  "description": "Research public US federal procurement opportunities and TED notices with source-linked documents.",
+  "author": {
+    "name": "Aleks Tartik"
+  },
+  "homepage": "https://mcpbids.com",
+  "license": "MIT",
+  "keywords": [
+    "procurement",
+    "mcp",
+    "documents"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MCP Bids",
+    "shortDescription": "Research public US federal procurement opportunities and TED notices with source-linked documents.",
+    "developerName": "Aleks Tartik",
+    "websiteURL": "https://mcpbids.com"
+  },
+  "mcpServers": {
+    "mcpbids": {
+      "url": "https://mcpbids.com/mcp",
+      "bearerTokenEnvVar": "MCPBIDS_API_KEY"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "dsh-plugin-mcpbids",
+  "version": "1.0.0",
+  "description": "Research public US federal procurement opportunities and TED notices with source-linked documents.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Aleks Tartik",
+  "homepage": "https://mcpbids.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelligue/mcpbids-plugins.git"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "procurement"
+  ],
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-mcp-client": "0.2.1-rc.2"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "bridge-core.mjs",
+    "stdio.mjs",
+    "kimi.plugin.json",
+    ".zcode-plugin",
+    ".mcp.json",
+    "skills",
+    "assets",
+    "README.md",
+    "README_CN.md",
+    "README_RU.md",
+    "LICENSE",
+    "marketplace.json"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

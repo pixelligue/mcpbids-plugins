@@ -1,0 +1,12 @@
+{
+  "name": "mcpbids-plugins",
+  "plugins": [
+    {
+      "name": "mcpbids",
+      "source": "./",
+      "version": "1.0.0",
+      "description": "Research public US federal procurement opportunities and TED notices with source-linked documents.",
+      "category": "productivity"
+    }
+  ]
+}
