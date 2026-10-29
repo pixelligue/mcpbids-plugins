@@ -1,6 +1,6 @@
 # MCP Bids
 
-Research public US federal procurement opportunities and TED notices with source-linked documents.
+Research collected US and Canadian public procurement opportunities and TED notices with source-linked documents.
 
 Maintained by the MCP Bids service publisher. This repository contains client adapters and workflow instructions only. It does not distribute the hosted backend. [Русский](README_RU.md) · [中文](README_CN.md)
 
@@ -28,7 +28,9 @@ Ask the agent to inspect `list_sources`, search a bounded number of procurement 
 
 ## Coverage and dependencies
 
-Public US federal SAM.gov notices and connected TED publications. US state/local, restricted vehicles and complete or real-time market coverage are not provided. Search operates on a collected index. Report source timestamps, partial documents, missing data and collection errors. Original links remain the authority for requirements and deadlines. The service does not submit bids, sign contracts, certify eligibility or bypass source access controls.
+Search covers US federal SAM.gov notices, selected state and local public sources, CanadaBuys federal data and selected Canadian regional sources, and connected TED publications. As of 27 October 2026, the source register recorded limited central-portal integrations in 22 US states: Arkansas, Connecticut, Delaware, Florida, Hawaii, Illinois, Indiana, Iowa, Kansas, Massachusetts, Montana, Nevada, New Jersey, New York, North Carolina, Oklahoma, Oregon, Pennsylvania, Texas, Vermont, Washington and Wisconsin. Washington, DC is a separate source. Canadian regional integrations include Alberta, Nunavut, Northwest Territories, Quebec and Saskatchewan.
+
+Central portals do not cover every agency, municipality, university, health system or independent buyer; restricted opportunities are not included. Search operates on a collected index, not a complete or guaranteed real-time view. Coverage, freshness and document availability vary by source. Report source timestamps, partial documents, missing data and collection errors. Original links remain the authority for requirements and deadlines. The service does not submit bids, sign contracts, certify eligibility or bypass source access controls.
 
 ## Permissions, network and side effects
 
